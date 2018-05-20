@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>Presidency University</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+
+.header img {
+	float:left ;
+	width: 70px;
+	height: 70px;
+	background: #555;
+}
+.content img{
+	width: 100%;
+	height: 100%;
+
+}
+.content {
+     height:100%;
+     width:100%;
+     background-image: url("images/uni.jpg");
+     background-repeat: no-repeat;
+} 
+.login_button
+{
+	  background-color: blue;
+	  float: right;
+	  border: none;
+	  color: white;
+	  padding: 16px 32px;
+	  text-align: center;
+	  font-size: 16px;
+	  margin: 20px 30px;
+	  opacity: 0.6;
+	  transition: 0.3s;
+	  display: inline-block;
+	  text-decoration: none;
+	  cursor: pointer;
+}
+.login_button:hover { opacity: 1 }
+.button 
+{
+	  background-color: #f4511e;
+	  border: none;
+	  color: white;
+	  padding: 16px 32px;
+	  text-align: center;
+	  font-size: 16px;
+	  margin: 20px 30px;
+	  opacity: 0.6;
+	  transition: 0.3s;
+	  display: inline-block;
+	  text-decoration: none;
+	  cursor: pointer;
+}
+.button:hover {opacity: 1}
+.footer {
+ 
+	text-align: center;
+	position:relative;
+}
+.header h1 {
+	position: relative;
+	top:8px;
+	height: 60px;
+}
+
+</style>
+</head>
+<body bgcolor="pink">
+<div id="header-container">
+<div class="header">
+<img src="images/logo.png" />
+<h1 align="center" <b>PRESIDENCY UNIVERSITY  </b> <br/>
+<br/>
+</h1>
+</div>
+</div>
+<div id="content-container">
+<div class="content">
+<button class="login_button" onclick="window.location.href='student_login.php'">LOGIN</button>
+<br/><br/><br/><br/><br/><br/>
+<marquee><h1>APPLY FOR INTERNSHIP </h1>Last date for applying: 22nd march 2018</marquee>
+<button class="button" onclick="window.location.href='student_register.php'">Register here</button>
+</br/></br/><br/>
+</div>
+<div id="footer-container">
+<div class="footer">
+<h3> ©2017, PRESIDENCY UNIVERSITY. all rights reserved.</h3>
+</div>
+</div>
+</body>
+</html>
