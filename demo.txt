@@ -1,6 +1,7 @@
-welcome to github
+Food reciepes
 kheer
 pasta
 chcicken
+aloo
 
 Thank you
